@@ -9,8 +9,11 @@
 
 <a name="introduction"></a>
 
-## About the game
-
+## Introduction
+**Term Frequency-Inverse Document Frequency** algorithm implementation counts the occurrences of a n-gram with respect to the belonging article(`Term Frequency`) and with respect to occurrences in other articles from withing the same class of articles(`Inverse Document Frequency`).
+<br>
+**Naive Bayes** algorithm implementation aggregates information about articles's n-grams with respect to the membership of the corresponding article's summary.
+<br>
 <a name="execution_results"></a>
 
 ## Execution Results
@@ -28,7 +31,7 @@
 
 <a name="stop_words_included"></a>
 
-#### With stop words included
+#### Stop words included
 
 <br><br>
 ![bayes_stop_words_included.png](readme_resources/bayes_stop_words_included.png)
@@ -36,7 +39,7 @@
 
 <a name="stop_words_excluded"></a>
 
-#### With stop words excluded
+#### Stop words excluded
 
 <br><br>
 ![bayes_stop_words_excluded.png](readme_resources/bayes_stop_words_excluded.png)
